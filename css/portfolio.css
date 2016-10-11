@@ -167,26 +167,25 @@
 
 		.portfolio {
 			background-color: LightSalmon ;
-			padding-top: 100px;
 		}
 
-		.portfolio>h1 {
-			text-align: center;
-		}
 		.arrow-box{
 			font-size: 40px;
 			position: absolute;
+			padding-top: 10vh;
 			display: flex;
 		}
 
 		.arrow-box .left-arrow {
-			left:-140px;
+			left:-160px;
 			position: relative;
+			cursor: pointer;
 		}
 		
 		.arrow-box .right-arrow {
-			left:120px;
+			left:150px;
 			position: relative;
+			cursor: pointer;
 		}
 		.showbox {
 			padding: 2vh 4vw;
