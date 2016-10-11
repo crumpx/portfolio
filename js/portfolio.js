@@ -64,6 +64,25 @@ $(".contact-link").click(function() {
         'slow');
 });
 
+$('#pomodoro').on('click',function(){
+    window.open('https://crumpx.github.io/pomodoro/','_blank');
+});
+
+$('#calculator').on('click',function(){
+    window.open('http://codepen.io/crumpx/pen/RGGWPz','_blank');
+});
+
+$('#twitch-streamers').on('click',function(){
+    window.open('http://codepen.io/crumpx/pen/xExogL','_blank');
+});
+
+$('#weather').on('click',function(){
+    window.open('http://codepen.io/crumpx/pen/gwOxGr','_blank');
+});
+
+$('#ramdonquote').on('click',function(){
+    window.open('http://codepen.io/crumpx/pen/KgPKom','_blank');
+});
 
 
 });

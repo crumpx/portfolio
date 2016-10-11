@@ -58,13 +58,10 @@
 			border-radius: 50%;	
 		}
 
-
-
 		.menu ul{
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
-			
 			overflow: hidden;
 		}
 
@@ -160,16 +157,18 @@
 
 		.showitem {
 			box-shadow: 5px 20px 20px 0 rgba(0,0,0,0.2);
-			transition: 0.5s;
+			transition: 0.2s;
 			max-width: 250px;
 			min-height: 380px;
 			border-radius: 10px;
 			margin-right : 20px;
 			background-color: white;
+			cursor: pointer;
 		}
 
 		.showitem:hover {
   			box-shadow: 3px 12px 12px 0 rgba(0,0,0,0.5);
+  			transition: 0.4s;
 		}
 
 		.showitem:active {
