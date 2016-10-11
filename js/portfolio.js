@@ -6,6 +6,15 @@ var x = document.getElementsByClassName("showitem");
 
 window.addEventListener('resize',resized);
 
+
+if ($(document).width() < 1400) {
+    $('.arrow-box').css('display','flex');
+    showDivs(slideIndex);
+} else {
+    $('.arrow-box').css('display','none');
+}
+
+
 function showDivs(n) {
     if (n > x.length) {slideIndex = 1} 
     if (n < 1) {slideIndex = x.length} 
@@ -20,7 +29,7 @@ function plusDivs(n) {
 }
 
 function resized (){
-    if ($(document).width() < 1400) {
+    if ($(document).width() <= 1400) {
         $('.arrow-box').css('display','');
         showDivs(slideIndex);
     } else {
