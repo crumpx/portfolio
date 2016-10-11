@@ -1,6 +1,4 @@
 
-$(document).ready(function(){
-
 var slideIndex = 1;
 var x = document.getElementsByClassName("showitem");
 
@@ -13,7 +11,6 @@ if ($(document).width() < 1400) {
 } else {
     $('.arrow-box').css('display','none');
 }
-
 
 function showDivs(n) {
     if (n > x.length) {slideIndex = 1} 
@@ -84,5 +81,3 @@ $('#ramdonquote').on('click',function(){
     window.open('http://codepen.io/crumpx/pen/KgPKom','_blank');
 });
 
-
-});
