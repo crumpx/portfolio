@@ -37,6 +37,8 @@ function resized (){
     }
 }
 
+$('document').ready(function(){
+
 if ($(document).width() < 1400) {
     $('.arrow-box').css('display','');
     showDivs(slideIndex);
@@ -80,4 +82,11 @@ $('#weather').on('click',function(){
 $('#ramdonquote').on('click',function(){
     window.open('http://codepen.io/crumpx/pen/KgPKom','_blank');
 });
+
+$('.menu-trigger').click(function(){
+    $('.menu').slideToggle(500, function(){
+        $(this).toggleClass("nav-exp").css('display','');
+    });
+})
+})
 
