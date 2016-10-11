@@ -78,7 +78,6 @@
 
 		.menu li:hover {
 		   background-color: rgba(0, 0, 0, 0.5);
-
 		}
 
 		.menu {
@@ -112,6 +111,18 @@
 			}
 
 		} /* media */
+
+		@media (max-width: 414px) {
+			.brand {
+				padding-left: 10vw;
+				padding-top: 5px; 
+				margin-bottom: -75px;
+				overflow: hidden;
+			}
+
+
+
+		} 
 
 		.about {
 			background-color: Tan;
