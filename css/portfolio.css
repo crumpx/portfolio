@@ -30,7 +30,26 @@
 		.header {
 			background-image: url("../imgs/cat.png");
 			background-size: cover;
-			color: white;
+			color: yellow;
+		}
+
+		.header h1 {
+			text-transform: uppercase;
+			color: yellow;
+			font-size: 5em;
+
+		}
+
+		.header span {
+			display: block;
+			background: black;
+			margin-bottom: 5px;
+			padding: 0 0.4em;
+		}
+
+		.header>a {
+			background-color: black;
+			padding: 10px 10px;
 		}
 		
 		.nav {
