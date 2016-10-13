@@ -194,23 +194,23 @@ html, body {
 		}
 
 		.arrow-box{
-			font-size: 40px;
-			position: relative;
+			font-size: 40px;		
+			position: relative	;
 			display: flex;
+			top: 40vw;
 		}
 
-		.arrow-box .left-arrow {
+		.right-arrow {
+			cursor: pointer;
+		}
+		.left-arrow {
 			cursor: pointer;
 		}
 
-		.arrow-box .span{
-			background-color: black;
+		.arrow-box span{	
+			padding: 0 30vw;
 		}
 		
-		.arrow-box .right-arrow {
-			cursor: pointer;
-		}
-
 		.showbox {
 			display: flex;
 		}
