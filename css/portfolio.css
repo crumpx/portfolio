@@ -1,8 +1,9 @@
 		* {
 			padding: 0;
+			margin:0;
 		}
 html, body {
-			margin:0;
+			
 
 			font-family: monospace;
 		}
@@ -99,6 +100,7 @@ html, body {
 		}
 		
 		.menu li a {
+			display: block;
 		    color: white;
 		    text-decoration: none;
 		    width:100vw;
@@ -148,13 +150,11 @@ html, body {
 
 		.menu li {		
 			padding: 12px 20px;
-
 		}
 		
 		.menu li a {
+			display: inline;
 		    text-align: center;
-		    height: 20px;
-		    height: 100%
 		}
 
 		.menu li:hover {
@@ -198,7 +198,7 @@ html, body {
 
 		.arrow-box{
 			font-size: 40px;		
-			position: relative	;
+			position: relative;
 			display: flex;
 			top: 40vw;
 		}
