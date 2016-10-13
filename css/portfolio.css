@@ -84,7 +84,7 @@
 		.menu-trigger {
 			color: white;
 			margin-top: 14px;
-					
+			margin-left: 60vw;			
 		}
 
 
@@ -109,11 +109,12 @@
 		}
 
 		.menu {
-			display: none;
+			display: block;
 			 /*position: absolute; */
-			width:100vw;
+			width: 100vw;
 			font-size: 1em;
-			margin-top: 41px;
+
+			/* margin-top: 41px; */
 			background-color:  rgba(0, 0, 0, 0.4);
 			border-bottom: 1px solid white;
 		}
