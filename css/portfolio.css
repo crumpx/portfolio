@@ -87,6 +87,10 @@
 			margin-left: 60vw;			
 		}
 
+		.menu ul {
+			list-style-type: none;
+		}
+
 
 		.menu li {
 			padding: 20px 20px;
@@ -114,7 +118,7 @@
 			width: 100vw;
 			font-size: 1em;
 			margin-top: 41px;
-			left: 0;
+			left: -100vw;
 			background-color:  rgba(0, 0, 0, 0.4);
 			border-bottom: 1px solid white;
 		}
