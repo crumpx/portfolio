@@ -116,7 +116,7 @@ html, body {
 			position: fixed;
 			width: 100%;
 			font-size: 1em;
-			left:100vw;
+			left:-100vw;
 			margin-top: 41px;
 			background-color:  rgba(0, 0, 0, 0.4);
 			border-bottom: 1px solid white;
