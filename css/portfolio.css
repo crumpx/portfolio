@@ -115,7 +115,6 @@ html, body {
 			display: none;	
 			position: absolute;
 			left:0;
-
 			width: 100%;
 			font-size: 1em;
 			margin-top: 41px;
@@ -200,13 +199,13 @@ html, body {
 
 		.arrow-box .left-arrow {
 			left:-160px;
-			position: relative;
+			position: absolute;
 			cursor: pointer;
 		}
 		
 		.arrow-box .right-arrow {
 			left:150px;
-			position: relative;
+			position: absolute;
 			cursor: pointer;
 		}
 		.showbox {
