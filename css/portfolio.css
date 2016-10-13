@@ -203,7 +203,7 @@ html, body {
 		}
 		
 		.arrow-box .right-arrow {
-			left:150px;
+			text-align: right;
 			cursor: pointer;
 		}
 		.showbox {
