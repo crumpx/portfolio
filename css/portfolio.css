@@ -195,13 +195,16 @@ html, body {
 
 		.arrow-box{
 			font-size: 40px;
-			position: absolute;
+			position: relative;
 			display: flex;
 		}
 
 		.arrow-box .left-arrow {
-			margin-right: 80vw;
 			cursor: pointer;
+		}
+
+		.arrow-box .span{
+			background-color: black;
 		}
 		
 		.arrow-box .right-arrow {
