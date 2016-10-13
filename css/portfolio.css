@@ -1,6 +1,9 @@
+		* {
+			padding: 0;
+		}
 html, body {
 			margin:0;
-			padding: 0;
+
 			font-family: monospace;
 		}
 
@@ -208,7 +211,7 @@ html, body {
 		}
 
 		.arrow-box span{	
-			padding: 0 30vw;
+			padding: 0 40vw;
 		}
 		
 		.showbox {
