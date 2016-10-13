@@ -88,7 +88,7 @@ html, body {
 
 		.menu ul{
 			padding: 0;
-			list-style: none;
+			list-style-type: none;
 		}
 
 		.menu li {
@@ -112,11 +112,12 @@ html, body {
 		}
 
 		.menu {
-			display: none;
+			display: none;	
+			position: absolute;
+			left:0;
 
 			width: 100%;
 			font-size: 1em;
-			left:-100vw;
 			margin-top: 41px;
 			background-color:  rgba(0, 0, 0, 0.4);
 			border-bottom: 1px solid white;
@@ -161,7 +162,7 @@ html, body {
 
 		.menu {
 			margin-top: 0px;
-			/* position: absolute; */
+			position: 0;
 			display: flex;
 			padding-left: 60vw;
 			font-size: 1em;
