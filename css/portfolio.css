@@ -110,7 +110,7 @@
 
 		.menu {
 			display: none;
-			position: relative; 
+			position: absolute; 
 			width: 100vw;
 			font-size: 1em;
 			margin-top: 41px;
