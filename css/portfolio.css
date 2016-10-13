@@ -113,7 +113,7 @@ html, body {
 
 		.menu {
 			display: none;
-			position: fixed;
+
 			width: 100%;
 			font-size: 1em;
 			left:-100vw;
