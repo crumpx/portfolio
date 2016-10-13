@@ -169,7 +169,10 @@ html, body {
 			border-bottom: 0px;
 			
 		}
-
+		
+		.showitem {
+			margin: 0 10px;
+		}
 		
 		}
 
@@ -193,20 +196,19 @@ html, body {
 		.arrow-box{
 			font-size: 40px;
 			position: absolute;
-			padding-top: 10vh;
 			display: flex;
 		}
 
 		.arrow-box .left-arrow {
-			left:-160px;
+			margin-right: 80vw;
 			cursor: pointer;
 		}
 		
 		.arrow-box .right-arrow {
 			cursor: pointer;
 		}
+
 		.showbox {
-			padding: 2vh 4vw;
 			display: flex;
 		}
 
@@ -216,7 +218,7 @@ html, body {
 			max-width: 250px;
 			min-height: 380px;
 			border-radius: 10px;
-			margin-right : 20px;
+			
 			background-color: white;
 			cursor: pointer;
 		}
