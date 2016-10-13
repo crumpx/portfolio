@@ -199,13 +199,11 @@ html, body {
 
 		.arrow-box .left-arrow {
 			left:-160px;
-			position: absolute;
 			cursor: pointer;
 		}
 		
 		.arrow-box .right-arrow {
 			left:150px;
-			position: absolute;
 			cursor: pointer;
 		}
 		.showbox {
