@@ -6,6 +6,16 @@ html, body {
 	     	font-family: monospace;
 		}
 
+		a {
+			color: white;
+		    text-decoration: none;
+		}
+
+		a:hover {
+			color: white;
+			text-decoration: none;
+		}
+
 		.section {
 			margin-top: 0px;
 			margin-bottom: 10px;
@@ -30,7 +40,7 @@ html, body {
 		}
 
 		.header {
-			background: url("../imgs/cat.png") fixed center center;
+			background: url("../imgs/cat.png") fixed left;
 			background-size: cover;
 			color: yellow;
 		}
@@ -53,7 +63,6 @@ html, body {
 			background-color: rgba(0,0,0, 0.5);
 		}
 
-	
 		
 		.nav {
 			position: fixed;
@@ -217,13 +226,11 @@ html, body {
 		.arrow-box span{	
 			padding: 0 40vw;
 		}
-		
-		.showbox {
-			margin:0 auto;
-			
-
-		}
-
+/* 		
+.showbox {
+	margin:0 auto;	
+}
+ */
 		.showitem {
 			float: left;
 			box-shadow: 5px 20px 20px 0 rgba(0,0,0,0.2);
@@ -231,7 +238,6 @@ html, body {
 			max-width: 250px;
 			min-height: 380px;
 			border-radius: 10px;
-			
 			background-color: white;
 			cursor: pointer;
 		}

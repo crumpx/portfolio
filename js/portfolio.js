@@ -68,15 +68,15 @@ $('#pomodoro').on('click',function(){
 });
 
 $('#calculator').on('click',function(){
-    window.open('http://codepen.io/crumpx/pen/RGGWPz','_blank');
+    window.open('https://crumpx.github.io/jscalculator','_blank');
 });
 
 $('#twitch-streamers').on('click',function(){
-    window.open('http://codepen.io/crumpx/pen/xExogL','_blank');
+    window.open('https://crumpx.github.io/twitchstreamers','_blank');
 });
 
 $('#weather').on('click',function(){
-    window.open('http://codepen.io/crumpx/pen/gwOxGr','_blank');
+    window.open('https://crumpx.github.io/','_blank');
 });
 
 $('#ramdonquote').on('click',function(){
