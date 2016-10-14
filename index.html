@@ -6,6 +6,7 @@
 	</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
@@ -39,7 +40,7 @@
 	<div class="section">
 		<div class="header items-center fullpage">
 		<h1><span>Hi</span> <span>There</span></h1>
-		<a>This is my portfolio</a>
+		<span>This is my portfolio</span>
 		</div>
 	</div>
 
@@ -55,16 +56,17 @@
 
 	<div class="section">
 		<div class="portfolio fullpage items-center" id="portfolio">
-		<h1>Portfolio</h1>
+
+		<div class="portfolio-content-box items-center">
+				<h1>Portfolio</h1>
 		<div class="arrow-box" >
-		<div class="left-arrow"><a onclick="plusDivs(-1)">❮</a></div><span>	</span>
-		<div class="right-arrow"><a onclick="plusDivs(1)">❯</a></div>
-			
-			
+			<div class="left-arrow"><a onclick="plusDivs(-1)">❮</a></div><span>	</span>
+			<div class="right-arrow"><a onclick="plusDivs(1)">❯</a></div>			
 		</div>
 
-		<div class="showbox">
-			
+
+		<div class="showbox ">
+
 			<div class="showitem" id="pomodoro">
 			<img src="imgs/pomodoro-clock.png" class="showcase-img">
 				<div class="showcase-title">
@@ -108,6 +110,7 @@
 			</div>
 		</div>
 		
+	</div>
 	</div>
 	</div>
 

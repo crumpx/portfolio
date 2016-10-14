@@ -1,11 +1,9 @@
 		* {
-			padding: 0;
-			margin:0;
+			padding: 0 0;
+			margin:0 0;
 		}
 html, body {
-			
-
-			font-family: monospace;
+	     	font-family: monospace;
 		}
 
 		.section {
@@ -32,7 +30,7 @@ html, body {
 		}
 
 		.header {
-			background-image: url("../imgs/cat.png");
+			background: url("../imgs/cat.png") fixed center center;
 			background-size: cover;
 			color: yellow;
 		}
@@ -41,20 +39,21 @@ html, body {
 			text-transform: uppercase;
 			color: yellow;
 			font-size: 5em;
-
 		}
 
-		.header span {
+		.header>h1>span {
 			display: block;
-			background: black;
+			background: rgba(0,0,0, 0.8);
 			margin-bottom: 5px;
 			padding: 0 0.4em;
 		}
 
-		.header>a {
-			background-color: black;
-			padding: 10px 10px;
+		.header>span{
+			padding: 0.5em 0.5em;
+			background-color: rgba(0,0,0, 0.5);
 		}
+
+	
 		
 		.nav {
 			position: fixed;
@@ -72,9 +71,8 @@ html, body {
 		.brand {
 			z-index: 1;
 			padding-left: 10vw;
-			padding-top: 2px; 
+			padding-top: 10px; 
 			margin-bottom: -80px;
-
 		}
 
 		.brand-img {
@@ -88,7 +86,6 @@ html, body {
 			margin-top: 14px;
 			margin-left: 60vw;			
 		}
-
 
 		.menu ul{
 			padding: 0;
@@ -105,7 +102,6 @@ html, body {
 		    text-decoration: none;
 		    width:100vw;
 		    height: 100%
-
 		}
 
 		.menu li:hover {
@@ -122,7 +118,7 @@ html, body {
 			left:0;
 			width: 100%;
 			font-size: 1em;
-			margin-top: 41px;
+			margin-top: 50px;
 			background-color:  rgba(0, 0, 0, 0.4);
 			border-bottom: 1px solid white;
 		}
@@ -181,6 +177,8 @@ html, body {
 
 		.about {
 			background-color: Tan;
+			padding: 0 10vw;
+			text-align: center;
 		}
 
 		.about p {
@@ -194,6 +192,12 @@ html, body {
 
 		.portfolio {
 			background-color: LightSalmon ;
+		}
+
+		.portfolio-content-box {
+			text-align: center;
+			padding: 40px;
+
 		}
 
 		.arrow-box{
@@ -215,10 +219,13 @@ html, body {
 		}
 		
 		.showbox {
-			display: flex;
+			margin:0 auto;
+			
+
 		}
 
 		.showitem {
+			float: left;
 			box-shadow: 5px 20px 20px 0 rgba(0,0,0,0.2);
 			transition: 0.2s;
 			max-width: 250px;
