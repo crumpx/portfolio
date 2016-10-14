@@ -40,7 +40,7 @@ html, body {
 		}
 
 		.header {
-			background: url("../imgs/cat.png") fixed left;
+			background: url("../imgs/cat.png");
 			background-size: cover;
 			color: yellow;
 		}
