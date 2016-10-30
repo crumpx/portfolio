@@ -43,6 +43,7 @@ html, body {
 			background: url("../imgs/cat.png");
 			background-size: cover;
 			color: yellow;
+			background-attachment: fixed;
 		}
 
 		.header h1 {
@@ -67,7 +68,7 @@ html, body {
 		.nav {
 			position: fixed;
 			border-bottom: 1px white solid;
-			background-color:  rgba(0, 0, 0, 0.6) ;
+			background-color: #000 ;
 		}
 
 		.navbar {
@@ -143,7 +144,10 @@ html, body {
 			.menu-trigger {
 				display: none;
 			}
-
+		
+		.nav {
+			background-color:  rgba(0, 0, 0, 0.6) ;
+		}
 
 
 		.menu ul{
